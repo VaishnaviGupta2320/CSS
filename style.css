@@ -1,0 +1,194 @@
+/* /* *{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #0000ff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 2px solid black;
+    display: inline-block;
+    /* we can set display as block, inline, inline-block-> means we can give all margin and padding and none display will remove that perticular element and no space is reserved for that but if we put visibility=hidden then space is reserved*/
+/* }
+p{
+    color: cyan;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: normal;
+    text-transform: capitalize;
+    /* font size are of two types 1) absolute in this we give size in px; 96px=1inch */
+/* }
+button{
+    color:darkslategray;
+    background-color: chartreuse;
+}
+body{
+    background-color: teal;
+    /* text-align: center; */
+/* }
+#headingtwo{
+    color:lime;
+    text-decoration: overline; }*/
+*/
+/* id selector */
+/* for applying same style for all we use*{} known as universal selector */
+/* .paragraph{
+    color:cyan;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }*/
+
+/* for using same style for multiple we will use class selector as shown above */
+/* in css3 we have two more values for text-align apart from left, right, centre i.e start and end, in eng and hindi-start means left andend means right */
+/* #box{
+    background-color: darkolivegreen;
+    height: 50x;
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    border-width: 2px;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    /* in this padding for left, right. up and bottom is same */
+    /* if we want to give padding different then we can give as padding:25px 50px 40px 35pxi.e top right bottom left-> clockwise direction and same way follow for margin as well*/
+    /* margin-top: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTte73pEKxyjUr7Py2ZgOzZp9eBvbntJ7mRBi-K3YMaRzSpvFjoOZfdvJVyGaoFlIg9fJE&usqp=CAU");
+    background-size: cover; */ */
+/* }
+/* if we want circle in css then we will make height and width of box equal i.e make it square and then put border radius=50% */
+/* a{
+    text-decoration: none;
+}
+#navbar
+{
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+#button1{
+    background-color: #f08804;
+} */ */
+/* #logo{
+    background-color: #f08804;
+    font-size: 25px;
+}
+#navbar a{
+    margin-right: 200px;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    font-size: 10px;
+}
+#box4{
+    height: 100px;
+    width: 30%;
+    background-color: whitesmoke;
+    font-size: 2em;  */
+    /* 2em means 2 to,em of parent font size */
+    /* for rem size will be adjusted acc to root that is outer element }*/
+
+/* relative value is %, em, rem- in this size is calculated with respect to parent */
+/* vh:relative to 1% viewport ht , vw:relative to 1% viewport width */
+/* we have following 5 position value- 1)static- by default value, we cannot set top, bottom, left, right and z-index 2)relative - relative to itself3)absolute - relative to parent4) fixed- relative to browser 5)sticky */
+/* body{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS92foo4ahCYh16cVupKRry6z_88BwPRoK8Kg&usqp=CAU"); */
+    /* background-size: cover;
+    
+}  */
+/* #container{
+    height: 600px;
+    width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+/* justify-content: space-around; */
+/* flex-wrap: wrap; */
+/* align-items: center;
+align-content: center;
+}
+#box10{
+    background-color: darkmagenta;
+    display: inline-block;
+    border: 2px solid black;
+    height: 50px;
+    width: 250px;
+} */
+/* #box11{
+    background-color: gold;
+    display: inline-block;
+    border: 2px solid black;
+    height: 200px;
+    width: 250px;
+    /* flex-shrink: 1; */
+    /* flex-grow: 1;
+}
+#box12{
+    background-color: maroon;
+    display: inline-block;
+    border: 2px solid black;
+    height: 120px;
+    width: 250px;
+    flex-grow: 2;
+}
+#box13{
+    background-color: red;
+    display: inline-block;
+    border: 2px solid black;
+    height: 50px;
+    width: 250px;
+}
+#box14{
+    background-color: darkgreen;
+    display: inline-block;
+    border: 2px solid black;
+    height: 50px;
+    width: 250px; }*/
+
+ul{
+    background-color: rgb(211, 15, 48);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: brown;
+}
+li{
+    display: inline;
+} 
+#outer{
+height: 400px;
+width: 400px;
+background-color: royalblue;
+display: flex;
+justify-content: center;
+/* to make it centre with main axis */
+ align-items: center; 
+/* to make it centre with cross axis} */
+}
+ #inner{
+    height: 100px;
+    width: 100px;
+ background-color: darkmagenta;
+}
+
+@media(min-width:600px)
+{
+    #outer{
+        background-color: black;
+    }
+}
+
+@media(min-width:200px) and (max-width:400px)
+{
+    #inner{
+        background-color: coral;
+    }
+}
