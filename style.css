@@ -29,11 +29,11 @@ div {
         to{background-color: green;} */
         /* from{left:0px;}
         to{left:400px;} */
-        0%{background-color: blue;
+        /* 0%{background-color: blue;
         left:0px}
         50%{background-color: greenyellow;}
         100%{background-color: darkmagenta;
-        left:500px}
+        left:500px} */
     }
         
     
